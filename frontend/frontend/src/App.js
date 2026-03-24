@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'https://smart-traffic-system-am0l.onrender.com';
+const API_BASE_URL = 'https://smart-traffic-system-1-8dv2.onrender.com';
 
 function App() {
   const [trafficData, setTrafficData] = useState({});
