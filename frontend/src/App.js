@@ -16,7 +16,7 @@ import { Bar } from "react-chartjs-2";
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
-const BASE_URL = "http://127.0.0.1:5000";
+const BASE_URL = "https://smart-traffic-system-1-8dv2.onrender.com";
 
 export default function App() {
   const [timer, setTimer] = useState(5);
